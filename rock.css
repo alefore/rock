@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  color: #fff;
+}
+body {
+  background-color: #000;
+}
+html, body, .phrase {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+.phrase {
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+  font-size: 10em;
+  font-family: rock-and-roll, monospace;
+  text-align: center;
+
+  width: 100%;
+}
